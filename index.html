@@ -247,6 +247,18 @@
     body.es .lang-es{display:inline}
     .lang-block{display:block}
     body.es .lang-es.lang-block{display:block}
+    /* FORCE REMOVE ANY LOGO BACKGROUND / BORDER */
+.logo {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.logo img {
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
   </style>
 </head>
 
@@ -256,7 +268,7 @@
       <div class="row">
         <div class="brand">
           <div class="logo">
-  <img src="logo.jpg" alt="Financial Solutions Team logo" style="width:100%;height:100%;object-fit:cover;border-radius:14px;">
+  <img src="logo.jpg" alt="Financial Solutions Team logo">
 </div>
           
           <div>
